@@ -21,8 +21,8 @@ body {
 /* Header */
 
 header {
-    color: var(--secondary-color-text);
-    font-weight: 500;;
+    
+    font-weight: 500;
 }
 
 .links:hover, .links:focus, .address:hover, .address:focus, .logo:focus {
