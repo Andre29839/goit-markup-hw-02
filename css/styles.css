@@ -101,7 +101,7 @@ header .link, footer .link {
 }
 
 .advantages-p {
-        color: var(--secondary-color-text);
+        color: var(--main-color-text);
             letter-spacing: 0.02em;
 }
 /* What are we doing*/
