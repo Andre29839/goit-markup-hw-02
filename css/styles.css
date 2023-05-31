@@ -93,7 +93,11 @@ header .link, footer .link {
 /* Advantages */
 
 .avantages-title {
-    letter-spacing: 0.04em;
+    
+}
+
+.advantages-p {
+letter-spacing: 0.04em;
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 20px;
