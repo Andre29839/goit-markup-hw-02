@@ -49,7 +49,7 @@ header .address {
 .logo {
     color: var(--secondary-color-text);
 }
-.web {
+header .link, footer .link {
     
     letter-spacing: 0.03em;
         color: var(--logo-color);
