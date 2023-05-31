@@ -34,7 +34,7 @@ header a {
     text-decoration: none;
 }
 
-header .address {
+header .link-address {
     font-style: normal;
     letter-spacing: 0.02em;
 }
@@ -62,7 +62,7 @@ header .link, footer .link {
 }
 
 .logo:hover, .logo:focus{
-    color: var(--logo-color);
+    color: var(--button);
 }
 
 /* Hero */
