@@ -136,6 +136,7 @@ header .link, footer .link {
 footer, footer .logo {
     color: var(--secondary-background-color);
     background-color: var(--secondary-color-text);
+    letter-spacing: 0.02em;
 }
 
 /* Portfolio */
