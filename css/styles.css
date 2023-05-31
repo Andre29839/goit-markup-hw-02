@@ -69,20 +69,25 @@ header .link, footer .link {
 
 .hero {
     background-color: var(--secondary-color-text);
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+   
 }
 
 .hero-title {
     color: var(--white-color);
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
 }
 
 .hero > .button {
     color: var(--white-color);
     background-color: var(--logo-color);
+}
+
+.hero>.button:focus, .hero>.button:hover {
+    color: var(--button);
 }
 
 /* Advantages */
