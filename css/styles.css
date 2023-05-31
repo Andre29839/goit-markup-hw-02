@@ -92,14 +92,17 @@ header .link, footer .link {
 
 /* Advantages */
 
-.avantages-title, .advantages-p{
-    letter-spacing: 0.04em;
+.avantages-title {
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.04em;
 }
+
+.advantages-p {
+        color: var(--secondary-color-text);
+            letter-spacing: 0.02em;
 
 /* What are we doing*/
 
@@ -109,7 +112,7 @@ header .link, footer .link {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -142,7 +145,7 @@ header .link, footer .link {
 
 /* footer */
 
-footer, footer .logo {
+.footer, footer .logo {
     color: var(--secondary-background-color);
     background-color: var(--secondary-color-text);
     letter-spacing: 0.02em;
