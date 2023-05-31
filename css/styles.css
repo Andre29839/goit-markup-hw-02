@@ -92,7 +92,7 @@ header .link, footer .link {
 
 /* Advantages */
 
-.avantages-title {
+.avantages-title, .advantages-list {
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 20px;
