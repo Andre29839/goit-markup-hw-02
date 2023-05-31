@@ -6,6 +6,7 @@
 --border-color: #E7E9FC;
 --background-color: #E5E5E5;
 --secondary-background-color: #F4F4FD;
+--button: #404BBF;
 }
 
 body {
@@ -21,8 +22,7 @@ body {
 
 header {
     color: var(--secondary-color-text);
-    font-weight: 500;
-    border-bottom: 1px solid var(--border-color);
+    font-weight: 500;;
 }
 
 .links:hover, .links:focus, .address:hover, .address:focus, .logo:focus {
@@ -36,15 +36,18 @@ header a {
 
 header .address {
     font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .list {
+    letter-spacing: 0.02em;
     list-style-type: none;
 }
 
 /* Logo */
 
 .logo {
+    letter-spacing: 0.03em;
     color: var(--secondary-color-text);
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -57,9 +60,14 @@ header .address {
     color: var(--logo-color);
 }
 
+.logo:hover, .logo:focus{
+    color: var(--logo-color);
+}
+
 /* Hero */
 
 .hero {
+    letter-spacing: 0.02em;
     background-color: var(--secondary-color-text);
     font-weight: 700;
     font-size: 56px;
@@ -79,10 +87,12 @@ header .address {
 /* Advantages */
 
 .avantages-title {
+    letter-spacing: 0.04em;
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.04em;
 }
 
 /* What are we doing*/
@@ -93,6 +103,8 @@ header .address {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
 }
 
 /* Our Team */
@@ -111,6 +123,7 @@ header .address {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .position {
@@ -129,12 +142,13 @@ footer, footer .studio {
 .list .button {
     color: var(--logo-color);
     background-color: var(--secondary-background-color);
-    border: 1px solid var(--border-color);
+    cursor: pointer;
 }
 
 .list .button:hover, .list .button:focus {
     color: var(--secondary-background-color);
-    background-color: var(--logo-color);
+    background-color: var(--button);
+    cursor: pointer;
 }
 
 .example-list {
@@ -142,4 +156,5 @@ footer, footer .studio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
