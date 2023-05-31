@@ -26,7 +26,7 @@ header {
 }
 
 .links:hover, .links:focus, .address:hover, .address:focus, .logo:focus {
-    color: var(--logo-color);
+    color: var(--secondary-color-text);
 }
 
 header a {
@@ -103,7 +103,7 @@ header .link, footer .link {
 .advantages-p {
         color: var(--secondary-color-text);
             letter-spacing: 0.02em;
-
+}
 /* What are we doing*/
 
 .example, .team-title {
@@ -172,3 +172,4 @@ header .link, footer .link {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
