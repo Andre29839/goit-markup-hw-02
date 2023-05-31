@@ -116,7 +116,6 @@ header .link, footer .link {
 
 .our-team .bgc {
     background-color: var(--white-color);
-    letter-spacing: 0.02em;
 }
 
 .team {
@@ -125,6 +124,11 @@ header .link, footer .link {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-title {
+    letter-spacing: 0.02em;
 }
 
 .position {
