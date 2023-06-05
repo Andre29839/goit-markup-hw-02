@@ -220,7 +220,7 @@ header .link, footer .link {
     cursor: pointer;
 }
 
-.list>.link {
+.list .link {
     text-decoration: none;
 
 }
@@ -239,3 +239,7 @@ header .link, footer .link {
     letter-spacing: 0.02em;
 }
 
+.production-p {
+    color: var(--main-color-text);
+    text-decoration: none;
+}
