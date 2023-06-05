@@ -115,7 +115,7 @@ header .link, footer .link {
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.02em;
 }
 
 .hero > .button {
@@ -143,9 +143,18 @@ header .link, footer .link {
     letter-spacing: 0.04em;
 }
 
+.advantages-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
 .advantages-p {
         color: var(--main-color-text);
-            letter-spacing: 0.02em;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 /* What are we doing*/
 
