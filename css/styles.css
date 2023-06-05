@@ -206,13 +206,23 @@ header .link, footer .link {
 /* Portfolio */
 
 .list .button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--logo-color);
     background-color: var(--secondary-background-color);
     cursor: pointer;
 }
 
+.list>.link {
+    text-decoration: none;
+    
+}
+
 .list .button:hover, .list .button:focus {
-    color: var(--secondary-background-color);
+    color: var(--white-color);
     background-color: var(--button);
     cursor: pointer;
 }
