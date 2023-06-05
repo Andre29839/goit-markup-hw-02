@@ -29,8 +29,12 @@ nav.link {
     list-style: none;
 }
 
-.links:hover, .links:focus, .address:hover, .address:focus, .logo:focus {
+.links{
     color: var(--secondary-color-text);
+}
+
+.links:hover, .links:focus, .address:hover, .address:focus, .logo:focus {
+    color: var(--button);
 }
 
 header a {
@@ -218,7 +222,7 @@ header .link, footer .link {
 
 .list>.link {
     text-decoration: none;
-    
+
 }
 
 .list .button:hover, .list .button:focus {
