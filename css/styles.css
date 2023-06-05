@@ -38,6 +38,18 @@ header a {
     text-decoration: none;
 }
 
+.address {
+    font-style: normal;
+}
+
+.address.list {
+    font-style: normal;
+    letter-spacing: 0.02em;
+    list-style: none;
+    color: var(--secondary-color-text);
+    text-decoration: none;
+}
+
 header .link-address {
     font-style: normal;
     letter-spacing: 0.02em;
@@ -50,13 +62,18 @@ header .link-address:hover, header .link-address:focus {
     color: var(--button)
 }
 
-header .list {
-    text-decoration: none;
+header ul.list {
+    
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+header ul.list:hover, header ul.list:focus {
+    color: var(--button);
 }
 
 .list {
