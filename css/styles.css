@@ -43,7 +43,7 @@ header .link-address {
     letter-spacing: 0.02em;
 }
 
-header .link {
+header .list {
     text-decoration: none;
     color: var(--secondary-color-text);
     font-weight: 500;
