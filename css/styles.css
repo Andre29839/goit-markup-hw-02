@@ -37,7 +37,7 @@ nav.link {
     letter-spacing: 0.02em;
 }
 
-.link.website:hover, .links.website:focus, .address:hover, .address:focus, .logo:focus {
+.link.website:hover, .link.website:focus, .address:hover, .address:focus, .logo:focus {
     color: var(--button);
 }
 
@@ -58,15 +58,15 @@ header a {
     text-decoration: none;
 }
 
-header .link-address {
+.link.address {
     font-style: normal;
     letter-spacing: 0.02em;
     list-style: none;
-    color: var(--secondary-color-text);
+    color: var(--main-color-text);
     text-decoration: none;
 }
 
-header .link-address:hover, header .link-address:focus {
+.link.address:hover, .link.address:focus {
     color: var(--button)
 }
 
