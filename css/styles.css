@@ -41,7 +41,7 @@ header a {
 header .link-address {
     font-style: normal;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    list-style: none;
 }
 
 header .list {
