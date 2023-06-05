@@ -42,6 +42,12 @@ header .link-address {
     font-style: normal;
     letter-spacing: 0.02em;
     list-style: none;
+    color: var(--secondary-color-text);
+    text-decoration: none;
+}
+
+header .link-address:hover, header .link-address:focus {
+    color: var(--button)
 }
 
 header .list {
