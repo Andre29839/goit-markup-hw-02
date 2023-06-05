@@ -29,7 +29,7 @@ nav.link {
     list-style: none;
 }
 
-.links{
+.link.website{
     color: var(--secondary-color-text);
 }
 
