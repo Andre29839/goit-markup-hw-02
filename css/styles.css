@@ -31,9 +31,13 @@ nav.link {
 
 .link.website{
     color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.links:hover, .links:focus, .address:hover, .address:focus, .logo:focus {
+.link.website:hover, .links.website:focus, .address:hover, .address:focus, .logo:focus {
     color: var(--button);
 }
 
